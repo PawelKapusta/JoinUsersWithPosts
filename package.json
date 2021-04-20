@@ -1,0 +1,24 @@
+{
+  "name": "oepnx",
+  "version": "1.0.0",
+  "description": "Fetch data from API about posts and users",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Paweł Kapusta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "haversine": "^1.1.1",
+    "minimist": "^1.2.5",
+    "sinon": "^10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "jest": "^26.6.3",
+    "mocha": "^8.3.2",
+    "mocha-sinon": "^2.1.2",
+    "prettier": "2.2.1"
+  }
+}
